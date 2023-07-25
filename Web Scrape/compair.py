@@ -3,11 +3,6 @@ import pandas as pd
 
 def search_website(query:str):
     string=query
-
-
-
-    
-
     flipkart="https://www.flipkart.com/search?q="
     flipkart+=string+"&page="
     fNames=[] 
