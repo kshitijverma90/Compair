@@ -2,7 +2,7 @@ import imp
 from fastapi import FastAPI
 from pip import List
 
-from amazonscrap import search_website
+from compair import search_website
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()

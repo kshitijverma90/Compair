@@ -9,7 +9,6 @@ function Result() {
   console.log(location)
   const querry=location.state.data.search
    const[List,setList]=useState([]);
-   const[newlist,setnewlist]=useState([]);
   useEffect(()=>{
     axios.get(`http://127.0.0.1:8000/q=${querry}`)
     .then(res => {
