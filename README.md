@@ -1,11 +1,15 @@
-Our innovative project harnesses the power of ReactJS, Python web scraping, and FastAPI to create a dynamic price comparison website. With this website, users can effortlessly compare prices of various articles from two popular e-commerce platforms: Reliance Digital and Flipkart. By combining cutting-edge technologies and intelligent data retrieval, our platform aims to help users find the best deals available for their desired items.
+# Price Comparison Platform
+## Project Overview
+The Price Comparison Platform is an advanced web application designed to revolutionize the way users make purchasing decisions. This robust platform intelligently compares product prices sourced from two major e-commerce giants, Flipkart and Reliance Digital. By providing users with access to the best deals available, it empowers them to make well-informed choices, ensuring a seamless and cost-effective shopping experience.
 
-At the heart of this project lies ReactJS, a powerful JavaScript library for building user interfaces. With ReactJS, we've created a sleek and intuitive frontend interface that provides a seamless user experience. Users can easily search for a specific item and browse through the results with a clean and responsive design.
+## Key Features
 
-To obtain accurate and up-to-date pricing information, we utilized Python for web scraping. We employed its robust libraries, such as BeautifulSoup and Requests, to crawl the Reliance Digital and Flipkart websites. By extracting the relevant data, including prices, we ensure that our users receive real-time information from both platforms.
+   - Seamless Frontend-Backend Communication
+      The project seamlessly integrates Axios, a popular HTTP client, to establish efficient communication between the frontend and a FastAPI-powered backend. This ensures a smooth and responsive user experience. 
+      The backend, designed for optimal performance, adeptly handles incoming requests. It orchestrates timely and appropriate responses, showcasing the project's prowess in full-stack development. This meticulous 
+      attention to communication ensures that users interact with the platform in a seamless and intuitive manner.
 
-The magic happens in the backend, where FastAPI comes into play. FastAPI, a modern, fast (high-performance) web framework for building APIs, allows us to connect the frontend and the scraped data seamlessly. By leveraging FastAPI's features, we enable quick and efficient communication between the user interface and the scraping logic. This ensures that the displayed prices are always accurate and reflect the latest information available.
-
-Our price comparison website eliminates the need for users to manually visit each platform separately, saving them valuable time and effort. With a single search query, they can instantly see a side-by-side comparison of the prices from Reliance Digital and Flipkart. Additionally, we highlight the website that offers the item at the lowest price, enabling users to make informed purchasing decisions and maximize their savings.
-
-In summary, our project showcases the power of ReactJS, Python web scraping, and FastAPI to create a dynamic and user-friendly price comparison website. By integrating these technologies, we provide a valuable tool for users to effortlessly find the best deals across two major e-commerce platforms. Experience the convenience and savings our platform offers by visiting our website and start making smarter purchase decisions today.
+  - Web Scraping Expertise
+      The heart of this project lies in its sophisticated web scraping capabilities. Leveraging the renowned Beautiful Soup library, the platform excels at extracting relevant and accurate data from both Flipkart 
+      and Reliance Digital. This meticulous approach guarantees that the platform presents users with precise and up-to-date product listings. By employing web scraping techniques, the platform stays dynamic and 
+      adaptable to changes in the e-commerce landscape.
